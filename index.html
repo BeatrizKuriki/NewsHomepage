@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Work+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
   <title>Frontend Mentor | News homepage</title>
 
 
@@ -14,14 +20,16 @@
 <body>
   <header>
     <figure>
-      <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
-    <nav>
+      <img src="assets/images/logo.svg" alt="logo">
+    </figure>
+     
+    <nav class="menu-navegacao">
       <ul>
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
+        <li><a href="">Home</a></li>
+        <li><a href="">New</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Trending</a></li>
+        <li><a href="">Categories</a></li>
       </ul>
     </nav>
   </header>
@@ -29,7 +37,7 @@
   <main>
     <section>
       <figure>
-        <img src="#" alt="">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="imagem central">
       </figure>
       <div>
         <h1>The Bright Future of Web 3.0?</h1>
