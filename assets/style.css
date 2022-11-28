@@ -21,7 +21,7 @@ a{
 body{
     margin: 100px 200px;
     font-family: 'Inter', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    
 }
 
 header{
@@ -37,11 +37,83 @@ nav a{
 }
 
 main{
+    width: 1110px;
+    height: 511px;
+    left: 165px;
+    top: 184px;
     display: grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
     gap: 50px;
 }
 
+ul{
+    display: flex;
+    list-style: none;            
+    
+}
+
+li {
+    width: auto;   
+    padding: 2px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    background-color: transparent;     
+    text-decoration:none;
+    cursor: pointer;
+    transition:0.4s;
+    
+    
+}
+
+li:hover{     
+    transition: 2rem;
+    text-shadow: none;
+    font-size: 16px;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: 0.3s ease;  
+}
+
+.imagem-central{
+  
+    width: 730px;
+    height: 300px;
+    top: 184px;
+    left: 165px;
+}
+
+
+
+
+
+.section{
+    display: flex;
+}
+
+.section-1{
+    width: 350px;
+    height: 129px;
+    top: 766px;
+    left: 925px;
+
+
+}
+
+.section-2{
+    width: 350px;
+    height: 129px;
+    top: 766px;
+    left: 925px;
+
+}
+
+.section-3{
+    width: 350px;
+    height: 129px;
+    top: 766px;
+    left: 925px;
+
+}
 
 
 
