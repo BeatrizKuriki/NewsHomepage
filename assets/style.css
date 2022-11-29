@@ -210,8 +210,14 @@ aside{
     align-items: center;
 
 }
+.section img{
+    width: 30%;
+    object-fit: cover;
+    margin: 10px;       
 
-.section h3{
+}
+
+.section header{
     color: var(--grayishBlue);
     margin-bottom: 5px;
 }
@@ -227,13 +233,6 @@ aside{
 .section p {
     font-size: 12px;
 }
-
-
-
-
-
-
-
 
 
 
