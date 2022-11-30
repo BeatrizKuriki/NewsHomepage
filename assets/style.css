@@ -78,80 +78,37 @@ main{
     
 }
 
-.principal{    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;  
-    
-    
-}
-
-.imagem-central{       
-    grid-column: 1/3;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.principal-h1{
-    width: 350px;
-    height: 182px;
-    left: 165px;
-    top: 512px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 56px;
-    line-height: 56px;
-    display: flex;
-    align-items: center;
-    color: #00001A;
-    grid-template-columns:1;
-    grid-template-rows: 2;
-}
-
-.principal-p{
+.paragrafo__btn__section{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 104px;
-    left: 0%;
-    right: 0%;
-    top: calc(50% - 104px/2 - 38.5px);
-    font-family:'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height:20px;
-    color: #5E607A;
-
 }
 
-button{
+.paragrafo__btn__section button{
     background-color: var(--softRef);
     color: #fff;
     border: none;
     height: 30%;
-    pad: 5px;
+    padding: 5px;
     letter-spacing: 2px;
     font-size: 20px;
     width: 50%;
-    font-weight: 800;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    left: 0%;
-    width: 185px;
-    height: 48px;
-    top:133px;
-    right: 47.14%;
-    top: 73.48%;
-    bottom: 0%;
+    font-weight:800;
 }
 
-button:hover{
+.paragrafo__btn__section button:hover{
     background-color: var(--darkGrayishBlue);
 }
+.principal-p{
+    font-size:20px;
+    margin-bottom: 20px;
 
+}
+
+.head-section h1{
+    font-size: 78px;
+    line-height: 70px;
+}
 
 aside{
     background-color: var(--veryDarkBlue);
@@ -159,84 +116,108 @@ aside{
     grid-row: 1/3;
     grid-column: 3;
     
-    
 }
-
 .newsContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    overflow: hidden;
+    
     position: relative;
     height: 100%;
     top: 10px;
 }
 
-.newsContainer h2{
+.newsContainer > h2{
     color: var(--softOrange);
     margin: 20px;
     font-size: 60px;
+}
 
+figure{
+    grid-column: 1/3;
+    
+}
+
+.imagem-central{
+    grid-column: 1/3;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .text{
     max-width: 100%;
     padding: 0 20px;
+
 }
-.text h3 {
+
+.text h2{
     font-size: 30px;
     margin-bottom: 20px;
+
 }
-.text h3:hover{
+
+.txt h2:hover{
     color: var(--softOrange);
     cursor: pointer;
 }
-.text p {
+
+.text p{
     font-size: 20px;
     margin-bottom: 40px;
+
 }
+
 .text:not(:last-child)::after{
     display: block;
-    content: '__________________________________________________';
+    content: '__________________________________';
     text-align: center;
     font-weight: 400;
     opacity: 40%;
 }
 
-
-.section{
+.card{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.section img{
+.card img{
     width: 30%;
     object-fit: cover;
     margin: 10px;       
-
 }
 
-.section header{
+.card h2{
     color: var(--grayishBlue);
     margin-bottom: 5px;
+
 }
-.section h3{
+
+.card h3{
     font-size: 15px;
     font-weight: 800;
     margin-bottom: 10px;
+
 }
-.section h3:hover{
+
+.card h3:hover{
     color: var(--softOrange);
     cursor: pointer;
+
 }
-.section p {
+.card p {
     font-size: 12px;
 }
 
 
 
-.attribution { font-size: 11px; text-align: center; }
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center;padding: 2rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
