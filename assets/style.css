@@ -151,17 +151,18 @@ figure{
 }
 
 .text h2{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
 
 }
 
-.txt h2:hover{
+.text h2:hover{
     color: var(--softOrange);
     cursor: pointer;
 }
 
 .text p{
+    padding: 2rem;
     font-size: 20px;
     margin-bottom: 40px;
 
