@@ -18,7 +18,7 @@
 
 <br>
 <h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
-<p>Com esse projeto continuei usando HTML, CSS, flex-box e grid. </p>
+<p>Com esse projeto continuei usando HTML, CSS, flex-box . </p>
 
 <br>
 <br>
