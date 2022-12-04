@@ -7,7 +7,7 @@
 
 <p>Imagem 1: Desktop</p>
 <p align="https://github.com/BeatrizKuriki/NewsHomepage/blob/main/assets/images/HomePage.png" width:1000></p>
-<p align="center"><img src="https://github.com/BeatrizKuriki/NewsHomepage/blob/main/assets/images/HomePage.png" width:1000></p>
+<p align="center"><img src="https://github.com/BeatrizKuriki/NewsHomepage/blob/main/assets/images/imgDesktopCorrigida.png" width:1000></p>
 
 <br>
 <h2 align="center">:hourglass: Status do projeto </h2>
